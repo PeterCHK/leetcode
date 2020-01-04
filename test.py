@@ -1,3 +1,5 @@
-lst=[1,2,4,3,5,6]
-lst.reverse()
-print(lst)
+lst = [1,2,3]
+
+print(id(lst[0]))
+print(id(lst[1]))
+print(id(lst[2]))
