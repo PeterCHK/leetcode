@@ -20,7 +20,10 @@ k=4
 a=Counter(lst)
 b=[]
 for i in range(k):
-    a['the']=0
-    print(max(a))
-    b.append(max(a))
+
+    while 'the' in lst:
+        lst.remove('the')
+    print(lst)
+
+    b.append(max(Counter(lst))
 print(b)
